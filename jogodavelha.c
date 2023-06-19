@@ -374,7 +374,7 @@ int main()
     if(velha == 1){
       printf("\nDeu Velha!\n");
        printf("\nDeseja continuar o jogo?. [N/S]\n");
-        char trocadilho03;
+        char trocadilho03 = 'null';
         do{
         scanf("%s", &resposta);
         getchar();
